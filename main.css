@@ -1,0 +1,144 @@
+.slides {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 350px;
+    z-index: -1;
+}
+
+.slide {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@-webkit-keyframes deslizar {
+    100% { left: 0; }
+}
+
+@keyframes deslizar {
+    100% { left: 0; }
+}
+
+#slide1 {
+    display: flex;
+    background-image: url("/img/index/slide1.jpg");
+}
+
+#slide2, #slide3 {
+    background-image: url("/img/index/slide2.jpg");
+}
+
+.slides .slide .texto {
+    position: absolute;
+    background-color: #11181ff2;
+    color: #eee;
+    height: 180px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    border-left: 2px solid #5969FF;
+    left: 10%;
+    margin-top: -25px;
+}
+
+.slides .slide .texto .t1 {
+    font-size: 36px;
+}
+
+.slides .slide .texto .t2 {
+    font-size: 76px;
+}
+
+.slides .slide .texto .t3 {
+    font-size: 55px;
+} 
+
+.slides .slide .texto span {
+    cursor: context-menu;
+} 
+
+.slides .slide .mais {
+    position: absolute;
+    height: 50px;
+    width: 125px;
+    background-color: #5969FF;
+    left: 10%;
+    margin-top: 105px;
+    display: flex;
+    align-items: center;
+    color: #eee;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.slides .slide .mais i {
+    margin-left: 10px;
+}
+
+.slides .botoes {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -25px;
+}
+
+.slides .botoes .b {
+    height: 5px;
+    width: 25px;
+    background-color: #11181ff2;
+    margin: 5px;
+    cursor: pointer;
+} 
+
+.slides .botoes #btn1 {
+    background-color: #5969FF;
+}
+
+.slides .setas {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: -15%;
+}
+
+.slides .setas .esquerda {
+    margin-right: 93%;
+    margin-left: 1%;
+}
+
+.slides .setas .direita {
+    margin-right: 1%;
+}
+
+.slides .setas .esquerda, .direita {
+    color: #eee;
+    background-color: #11181ff2;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.slides .setas .esquerda i {
+    padding-left: 7px;
+}
+
+.slides .setas .direita i {
+    padding-left: 8px;
+}
