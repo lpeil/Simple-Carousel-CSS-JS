@@ -17,21 +17,17 @@
     background-size: 100%;
 }
 
-@-webkit-keyframes deslizar {
-    100% { left: 0; }
-}
-
-@keyframes deslizar {
-    100% { left: 0; }
-}
-
 #slide1 {
     display: flex;
-    background-image: url("/img/index/slide1.jpg");
+    background-image: url("https://picsum.photos/id/1084/536/354");
 }
 
-#slide2, #slide3 {
-    background-image: url("/img/index/slide2.jpg");
+#slide2 {
+    background-image: url("https://picsum.photos/id/1060/536/354");
+}
+
+#slide3 {
+    background-image: url("https://picsum.photos/536/354");
 }
 
 .slides .slide .texto {
