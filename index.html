@@ -1,42 +1,51 @@
-<link href="main.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-
-<div class="slides">
-    <div id="slide1" class="slide">
-        <div class="texto">
-            <span class="t1">Lorem Ipsum</span>
-            <span class="t2">dolor sit amet</span>
-            <span class="t3">consectetur adipiscing elit</span>
+<!DOCTYPE html>
+<html> 
+    <head>
+        <link href="main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <title>Peil - Carousel</title>
+    </head>
+    <body>
+        <div class="slides">
+            <div id="slide1" class="slide">
+                <div class="texto">
+                    <span class="t1">Lorem Ipsum</span>
+                    <span class="t2">dolor sit amet</span>
+                    <span class="t3">consectetur adipiscing</span>
+                </div>
+                <div class="mais">
+                    <a href="#">Ver Mais <span>></span></a>
+                </div>
+            </div>
+            <div id="slide2" class="slide">
+                <div class="texto">
+                    <span class="t1">Lorem Ipsum</span>
+                    <span class="t2">dolor sit amet</span>
+                </div>
+                <div class="mais">
+                    <a href="#">Comprar <span>></span></a>
+                </div>
+            </div>
+            <div id="slide3" class="slide">
+                <div class="texto">
+                    <span class="t2">Lorem Ipsum</span>
+                </div>
+                <div class="mais">
+                    <a href="#">Ver Mais <span>></span></a>
+                </div>
+            </div>
+            <div class="setas">
+                <div class="esquerda" id="seta1"><span><</span></div>
+                <div class="direita" id="seta2"><span>></span></div>
+            </div>
+            <div class="botoes">
+                <div class="b" id="btn1"></div>
+                <div class="b" id="btn2"></div>
+                <div class="b" id="btn3"></div>
+            </div>
         </div>
-        <div class="mais">
-            <a href="#">Ver Mais <i class="fa fa-angle-right"></i></a>
-        </div>
-    </div>
-    <div id="slide2" class="slide">
-        <div class="texto">
-            <span class="t1">Lorem Ipsum</span>
-            <span class="t2">dolor sit amet</span>
-        </div>
-        <div class="mais">
-            <a href="http://apodigames.com.br">Comprar <i class="fa fa-angle-right"></i></a>
-        </div>
-    </div>
-    <div id="slide3" class="slide">
-        <div class="texto">
-            <span class="t2">Lorem Ipsum</span>
-        </div>
-        <div class="mais">
-            <a href="#">Ver Mais <i class="fa fa-angle-right"></i></a>
-        </div>
-    </div>
-    <div class="setas">
-        <div class="esquerda" id="seta1"><i class="fa fa-angle-left"></i></div>
-        <div class="direita" id="seta2"><i class="fa fa-angle-right"></i></div>
-    </div>
-    <div class="botoes">
-        <div class="b" id="btn1"></div>
-        <div class="b" id="btn2"></div>
-        <div class="b" id="btn3"></div>
-    </div>
-</div>
-<script href="carousel.js"></script>
+    </body>
+    <footer>
+            <script type="text/javascript" src="carousel.js"></script>
+    </footer>
+</html>

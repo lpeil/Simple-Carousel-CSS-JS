@@ -1,9 +1,19 @@
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
 .slides {
     position: absolute;
     left: 0px;
+    top: 0px;
     width: 100%;
     height: 350px;
-    z-index: -1;
 }
 
 .slide {
@@ -78,7 +88,7 @@
     cursor: pointer;
 }
 
-.slides .slide .mais i {
+.slides .slide .mais span {
     margin-left: 10px;
 }
 
@@ -131,10 +141,12 @@
     cursor: pointer;
 }
 
-.slides .setas .esquerda i {
+.slides .setas .esquerda span {
     padding-left: 7px;
+    padding-top: -4px;
 }
 
-.slides .setas .direita i {
+.slides .setas .direita span {
     padding-left: 8px;
+    padding-top: -4px;
 }
